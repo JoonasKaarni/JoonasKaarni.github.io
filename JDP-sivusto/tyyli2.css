@@ -92,3 +92,10 @@ h1 {
     border: 3px solid #1A1818;
     background-color: #3BC1EE;
 }
+.etusivubody {
+    background-image: url("kuvat/etusivuntausta.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px 540px;
+    background-attachment: fixed;
+    background-position: bottom;
+}
