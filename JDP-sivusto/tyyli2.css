@@ -111,3 +111,13 @@ h1 {
     width: 130px;
     border: 1px solid #1A1818;
 }
+@media screen and (min-width: 1200px) {
+    .etusivubody {
+        background-image: url(kuvat/etusivuntausta.jpg);
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: cover;
+    }
+
+
+}
