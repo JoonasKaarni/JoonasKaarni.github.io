@@ -103,7 +103,8 @@ h1 {
     background-position: bottom;
 }
 .CTA {
-    color: #1A1818;
+    color: whitesmoke;
+    background-color: #fe1717;
     display: block;
     text-align: center;
     margin: auto;
