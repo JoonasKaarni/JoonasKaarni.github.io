@@ -47,14 +47,24 @@ nav a:hover {
     background-color: rgba(red, green, blue, 0.6)
 }
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 22px;
-  background-color: #D9D9D9;
-  color: #1A1818;
-  text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 22px;
+    background-color: #D9D9D9;
+    color: #1A1818;
+    text-align: center;
+}
+.footerkauppa {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 22px;
+    background-color: #D9D9D9;
+    color: #1A1818;
+    text-align: center;
 }
 .logo {
     border-radius: 40%;
@@ -64,24 +74,23 @@ nav a:hover {
 .flex-container {
     display: flex;
     justify-content:space-around;
-    margin-top: 30px;
     background-color: #8d613bc8;
     padding: 10px;
 }
 .flex-container > div {
     color: #D9D9D9;
     font-size: 16px;
+    background-color: #644122dd;
 }
 .flex-container2 {
     display: flex;
     opacity: 85%;
 }
 .ostanyt {
-    color: #57f255
+    color: #57f255;
+    margin-bottom: 20px;
 }
-.ostos {
-    align-self: flex-end;
-}
+
 .etusivuh1 {
     color: whitesmoke;
     text-align: center;
@@ -189,5 +198,8 @@ nav a:hover {
     }
     .flex-container {
         display: block;
+    }
+    .footerkauppa {
+        position: static;
     }
 }
