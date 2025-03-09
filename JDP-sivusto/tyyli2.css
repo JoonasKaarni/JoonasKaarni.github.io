@@ -47,7 +47,7 @@ nav a:hover {
     background-color: rgba(red, green, blue, 0.6)
 }
 .footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -65,20 +65,35 @@ nav a:hover {
     display: flex;
     justify-content:space-around;
     margin-top: 30px;
-    background-color: #8D613B;
+    background-color: #8d613bc8;
     padding: 10px;
 }
 .flex-container2 {
     display: flex;
     justify-content:space-around;
 }
-
+.flex-container3 {
+    display: flex;
+    justify-content:space-around;
+}
 .flex-container2 > div {
-    background-color: #8D613B;
+    background-color: #8d613bc8;
     color: #D9D9D9;
     padding: 5px;
     font-size: 16px;
     
+}
+.flex-container3 > div {
+    background-color: #8d613bc8;
+    color: #D9D9D9;
+    padding: 5px;
+    font-size: 16px;
+}
+.flex-container4 {
+    display: flex;
+}
+.ostanyt {
+    color: #57f255
 }
 .etusivuh1 {
     color: whitesmoke;
@@ -93,9 +108,11 @@ nav a:hover {
     
 }
 .kauppah1 {
-    color: #1A1818;
-    border:3px solid #D9D9D9;
-    font-size: 50px;
+    color: #3BC1EE;
+    border: 2px solid #1A1818;
+    background-color: #8D613B;
+    font-size: 25px;
+    height: 30px;
 
 }
 .p1 {
@@ -157,10 +174,15 @@ nav a:hover {
         background-repeat: no-repeat;
         
     }
-
+    .kauppah1 {
+        color: #3BC1EE;
+        border: 2px solid #1A1818;
+        background-color: #8D613B;
+        font-size: 40px;
+        height: 50px;
 
 }
-
+}
 @media (max-width: 600px) {
     .etusivubody {
         background-image: url(kuvat/etusivuntausta.jpg);
@@ -169,5 +191,13 @@ nav a:hover {
         background-attachment: fixed;
         background-position: bottom;
 
+    }
+    .kauppah1 {
+        color: #3BC1EE;
+        border: 2px solid #1A1818;
+        background-color: #8D613B;
+        font-size: 20px;
+        height: 25px;
+    
     }
 }
