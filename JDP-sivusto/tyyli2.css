@@ -68,32 +68,19 @@ nav a:hover {
     background-color: #8d613bc8;
     padding: 10px;
 }
+.flex-container > div {
+    color: #D9D9D9;
+    font-size: 16px;
+}
 .flex-container2 {
     display: flex;
-    justify-content:space-around;
-}
-.flex-container3 {
-    display: flex;
-    justify-content:space-around;
-}
-.flex-container2 > div {
-    background-color: #8d613bc8;
-    color: #D9D9D9;
-    padding: 5px;
-    font-size: 16px;
-    
-}
-.flex-container3 > div {
-    background-color: #8d613bc8;
-    color: #D9D9D9;
-    padding: 5px;
-    font-size: 16px;
-}
-.flex-container4 {
-    display: flex;
+    opacity: 85%;
 }
 .ostanyt {
     color: #57f255
+}
+.ostos {
+    align-self: flex-end;
 }
 .etusivuh1 {
     color: whitesmoke;
@@ -144,7 +131,7 @@ nav a:hover {
     background-position: top;
 }
 .kauppabody {
-    background-image: url("kuvat/kauppatausta.JPG");
+    background-image: url("kuvat/kauppatausta.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -196,8 +183,11 @@ nav a:hover {
         color: #3BC1EE;
         border: 2px solid #1A1818;
         background-color: #8D613B;
-        font-size: 20px;
+        font-size: 18px;
         height: 25px;
     
+    }
+    .flex-container {
+        display: block;
     }
 }
