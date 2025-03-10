@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: Intern,Poppy serif;  
+  font-family: Intern,Poppy serif;
 }
 html, body { 
     height: 100%; 
@@ -129,6 +129,12 @@ nav a:hover {
     margin-top: 50px;
     border: 1px solid #1A1818;
     background-color: #3BC1EE;
+}
+.p3 {
+    color: #D9D9D9;
+}
+.yhteystiedoth {
+    color: #D9D9D9;
 }
 .etusivubody {
     background-image: url("kuvat/etusivuntausta.jpg");
