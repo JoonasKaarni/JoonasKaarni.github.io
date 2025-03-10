@@ -73,6 +73,7 @@ nav a:hover {
     justify-content:space-around;
     background-color: #8d613bc8;
     padding: 10px;
+    margin-top: 25px;
 }
 .flex-container > div {
     color: #D9D9D9;
