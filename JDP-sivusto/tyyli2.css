@@ -201,6 +201,20 @@ nav a:hover {
     color:#1A1818;
     background-color: #57f255;
 }
+.CTAyht {
+    color: whitesmoke;
+    opacity: 85%;
+    background-color: #fe1717;
+    display: block;
+    text-align: center;
+    margin-left: 200px;
+    width: 130px;
+    border: 1px solid #1A1818;
+}
+.CTAyht:hover {
+    color:#1A1818;
+    background-color: #57f255;
+}
 @media screen and (min-width: 1200px) {
     .etusivubody {
         background-image: url(kuvat/etusivuntausta.jpg);
@@ -217,7 +231,10 @@ nav a:hover {
         font-size: 40px;
         height: 50px;
 
-}
+    }
+    .yhteystiedotfooter{
+        position: absolute;
+    }
 }
 @media (max-width: 600px) {
     .etusivubody {
@@ -241,5 +258,11 @@ nav a:hover {
     }
     .footerkauppa {
         position: static;
+    }
+    .yhteystiedotfooter{
+        position: static;
+    }
+    .CTAyht {
+        margin: auto;
     }
 }
