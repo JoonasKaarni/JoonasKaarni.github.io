@@ -63,6 +63,16 @@ nav a:hover {
     color: #1A1818;
     text-align: center;
 }
+.yhteystiedotfooter {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 22px;
+    background-color: #D9D9D9;
+    color: #1A1818;
+    text-align: center;
+}
 .logo {
     border-radius: 40%;
     opacity: 85%;
@@ -131,10 +141,29 @@ nav a:hover {
     background-color: #3BC1EE;
 }
 .p3 {
-    color: #D9D9D9;
+    color: #3BC1EE;
+    opacity: 95%;
+    font-size: 16px;
+    width: 350px;
+
+    background-color: #8D613B;
+
 }
-.yhteystiedoth {
-    color: #D9D9D9;
+.yhteystiedoth1 {
+    color: #3BC1EE;
+    opacity: 95%;
+    font-size: 20px;
+    width: 150px;
+    border: 2px solid #1A1818;
+    background-color: #8D613B;
+}
+.yhteystiedoth2 {
+    color: #3BC1EE;
+    opacity: 95%;
+    font-size: 20px;
+    width: 250px;
+    border: 2px solid #1A1818;
+    background-color: #8D613B;
 }
 .etusivubody {
     background-image: url("kuvat/etusivuntausta.jpg");
@@ -150,6 +179,13 @@ nav a:hover {
     background-attachment: fixed;
     background-position: bottom;
 
+}
+.yhteystiedotbody {
+    background-image: url("kuvat/yhteystiedottausta.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
 }
 .CTA {
     color: whitesmoke;
